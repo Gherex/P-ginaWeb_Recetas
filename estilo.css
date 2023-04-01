@@ -28,7 +28,7 @@ body {
 	left: 50%;
 	transform: translate(-50%,-50%);
 	margin: 0;
-	font-size: 5vw;
+	font-size: 40px;
 	color: #fff;
 	letter-spacing: 2px;
 	text-align: center;
@@ -57,9 +57,6 @@ body {
 @media (max-width: 600px) { /* @media es una característica de CSS que se utiliza para aplicar */
   	.menu__item {			/* estilos diferentes a una página web según las características   */
     	flex-basis: 95%;    /* de la pantalla del dispositivo en el que se está visualizando. */
-  	}
-  	.menu__item__titulo {
-  		font-size: 7vw;
   	}
 }
 
@@ -235,7 +232,6 @@ body {
 	}
 
 	.main h2 {
-		font-size: 20px;
 		padding-bottom: 20px;
 	}
 
@@ -315,10 +311,15 @@ body {
 		padding: 25px;
 	}
 
-	.main h2 {
-		font-size: 20px;
+	.main article section h2 {
+		font-size: 22px;
+	}
+
+	.main > h2 {
+		font-size: 30px;
 		padding-bottom: 15px;
 	}
+
 
 	.main li {
 		padding-top: 8px;
@@ -327,7 +328,7 @@ body {
 	#resultado-final {
 		margin-left: 10%;
 		padding: 30px;
-		font-size: 18px;
+		font-size: 22px;
 	}
 
 	.aside {
